@@ -10,7 +10,7 @@ I build event-driven trading systems and data pipelines, focusing on transformin
 
 * Develop **algorithmic trading systems** (Python / Go)
 * Design **event-driven architectures** for real-time decision making
-* Work with **crypto & financial market data APIs** (Binance, KuCoin)
+* Work with **crypto & financial market data APIs** (Binance, KuCoin, Gate.io)
 * Perform **backtesting & strategy evaluation** (Sharpe, Max Drawdown, Win Rate)
 
 ---
