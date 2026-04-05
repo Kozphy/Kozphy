@@ -1,4 +1,4 @@
-# Hi, I'm Z 👋
+# Hi, I'm Zixsa 👋
 
 Taiwan-based | Open to relocation to the UK
 
