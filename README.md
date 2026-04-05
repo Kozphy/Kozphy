@@ -1,80 +1,102 @@
 # Hi, I'm Z 👋
 
-**Quantitative Trading Systems Developer | Data & Market Infrastructure**
+Taiwan-based | Open to relocation to the UK
 
-I build event-driven trading systems and data pipelines, focusing on transforming market signals into executable strategies.
+Quantitative Trading Systems Developer focused on building 
+event-driven trading infrastructure and data-driven execution systems.
 
 ---
 
 ## 🧠 What I Do
 
-* Develop **algorithmic trading systems** (Python / Go)
-* Design **event-driven architectures** for real-time decision making
-* Work with **crypto & financial market data APIs** (Binance, KuCoin, Gate.io)
-* Perform **backtesting & strategy evaluation** (Sharpe, Max Drawdown, Win Rate)
+• Design and implement **event-driven trading systems** for real-time signal execution  
+• Transform market data into **systematic trading strategies**  
+• Build **end-to-end pipelines** from data ingestion → signal generation → execution  
+• Conduct **strategy research & backtesting** with performance evaluation  
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Core Capabilities
 
-**Languages**
-Python · Go · SQL · JavaScript
+**Trading & Quant**
+• Strategy design (rule-based / signal-driven)
+• Backtesting (multi-year data simulation)
+• Risk metrics: Sharpe Ratio, Max Drawdown, Win Rate  
 
-**Quant / Data**
-Pandas · NumPy · Time Series Analysis · Feature Engineering
+**Systems Engineering**
+• Event-driven architecture for low-latency decision making  
+• Exchange API integration (Binance, KuCoin, Gate.io)  
+• Order execution & position management logic  
 
-**Systems & Infra**
-REST APIs · Event-driven systems · Docker · Linux
+**Data & Infrastructure**
+• Data pipelines for market data processing  
+• Feature engineering for time-series signals  
+• Dockerized deployment environments  
 
 ---
 
 ## 📈 Selected Projects
 
-### 🔹 Trading System (Event-Driven)
+### 🔹 Event-Driven Trading System
 
-* Built a rule-based automated trading system
-* Integrated exchange APIs for real-time execution
-* Implemented signal processing & position management
+• Built a fully automated trading system integrating exchange APIs  
+• Designed signal-to-execution pipeline with position management  
+• Implemented modular architecture for scalability  
 
-👉 *Focus: execution + system design*
+👉 Focus: execution layer + system architecture  
 
 ---
 
 ### 🔹 Backtesting Engine
 
-* Designed multi-year historical simulation
-* Evaluated strategies using Sharpe Ratio & Max Drawdown
-* Supports parameter tuning & performance comparison
+• Developed multi-year historical simulation framework  
+• Evaluated strategies using Sharpe Ratio & drawdown metrics  
+• Enabled parameter optimization and strategy comparison  
 
-👉 *Focus: quant evaluation + research workflow*
+👉 Focus: research infrastructure + performance evaluation  
 
 ---
 
 ### 🔹 Financial Data Analysis Tool
 
-* Analyzed financial statements using Python
-* Generated insights on revenue growth, margins, trends
-* Visualized outputs with charts
+• Analyzed financial statements to extract growth and margin trends  
+• Built visualization pipelines for business insights  
 
-👉 *Focus: data analysis + business understanding*
+👉 Focus: bridging financial understanding with data  
 
 ---
 
 ## 🌍 Career Direction
 
-* Transitioning into **UK-based Quant / Data roles**
-* Interested in **trading systems, market infrastructure, and data-driven decision making**
-* Open to opportunities in **quant trading / data engineering / fintech**
+Looking to transition into:
 
----
+• Quant Trading / Trading Systems Engineering  
+• Data Engineering (financial markets)  
+• Market Infrastructure / FinTech  
 
-## 📫 Contact
-
-* LinkedIn: www.linkedin.com/in/z-ixsa-4843b2262
-* GitHub: https://github.com/your-username
+Particularly interested in roles where **data, execution, and systems intersect**.
 
 ---
 
 ## ⚡ Notes
 
-I focus on building **real systems, not just models** — combining data, execution, and infrastructure.
+I focus on building **real trading systems with execution logic**,
+not just theoretical models.
+
+This work has been explored through both backtesting and
+small-scale live trading using personal capital, with a focus on
+execution behavior and risk management rather than profit optimization.
+
+
+## 📊 Live & Simulation Experience
+Tested trading systems through both backtesting and small-scale 
+live trading using personal capital.
+
+Focused on understanding real-world execution behavior, including:
+
+• Latency and order execution dynamics  
+• Slippage under varying market conditions  
+• Real-time risk and drawdown control  
+
+These insights were used to improve system design and align 
+backtesting assumptions with live execution reality.
