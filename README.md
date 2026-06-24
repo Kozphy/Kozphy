@@ -1,102 +1,113 @@
-# Hi, I'm Zixsa 👋
+# Hi, I'm Zixsa
 
-Taiwan-based | Open to relocation to the UK
+Taiwan-based accounting and data professional building tools for audit analytics, technology risk, data governance, and financial systems.
 
-Quantitative Trading Systems Developer focused on building 
-event-driven trading infrastructure and data-driven execution systems.
-
----
-
-## 🧠 What I Do
-
-• Design and implement **event-driven trading systems** for real-time signal execution  
-• Transform market data into **systematic trading strategies**  
-• Build **end-to-end pipelines** from data ingestion → signal generation → execution  
-• Conduct **strategy research & backtesting** with performance evaluation  
+My work focuses on turning financial, operational, and system data into structured evidence, risk insights, dashboards, and decision-ready reports.
 
 ---
 
-## ⚙️ Core Capabilities
+## Focus Areas
 
-**Trading & Quant**
-• Strategy design (rule-based / signal-driven)
-• Backtesting (multi-year data simulation)
-• Risk metrics: Sharpe Ratio, Max Drawdown, Win Rate  
-
-**Systems Engineering**
-• Event-driven architecture for low-latency decision making  
-• Exchange API integration (Binance, KuCoin, Gate.io)  
-• Order execution & position management logic  
-
-**Data & Infrastructure**
-• Data pipelines for market data processing  
-• Feature engineering for time-series signals  
-• Dockerized deployment environments  
+- Audit Analytics & Internal Control Evidence
+- Technology Risk / Endpoint Reliability
+- Data Engineering for Financial Systems
+- Financial Data Analysis & Reporting Automation
+- Quantitative Research & Market Data Infrastructure
 
 ---
 
-## 📈 Selected Projects
+## Core Capabilities
 
-### 🔹 Event-Driven Trading System
+### Data & Analytics
+- Python data analysis with Pandas and NumPy
+- SQL-based data validation and reconciliation
+- Financial statement analysis and metric design
+- Dashboard and reporting workflows
 
-• Built a fully automated trading system integrating exchange APIs  
-• Designed signal-to-execution pipeline with position management  
-• Implemented modular architecture for scalability  
+### Risk & Control Thinking
+- Evidence collection and documentation
+- Internal control and compliance-oriented workflows
+- Incident timeline reconstruction
+- Policy-gated decision and remediation logic
 
-👉 Focus: execution layer + system architecture  
-
----
-
-### 🔹 Backtesting Engine
-
-• Developed multi-year historical simulation framework  
-• Evaluated strategies using Sharpe Ratio & drawdown metrics  
-• Enabled parameter optimization and strategy comparison  
-
-👉 Focus: research infrastructure + performance evaluation  
-
----
-
-### 🔹 Financial Data Analysis Tool
-
-• Analyzed financial statements to extract growth and margin trends  
-• Built visualization pipelines for business insights  
-
-👉 Focus: bridging financial understanding with data  
+### Engineering & Infrastructure
+- API integration and data ingestion pipelines
+- ETL / ELT workflows for structured datasets
+- Docker-based development environments
+- FastAPI, PostgreSQL, and automation scripts
 
 ---
 
-## 🌍 Career Direction
+## Selected Projects
 
-Looking to transition into:
+### Endpoint Reliability & IT Risk Decision Platform
 
-• Quant Trading / Trading Systems Engineering  
-• Data Engineering (financial markets)  
-• Market Infrastructure / FinTech  
+A local-first Windows endpoint evidence and technology risk toolkit that diagnoses proxy-related network incidents and turns system signals into audit-ready reports.
 
-Particularly interested in roles where **data, execution, and systems intersect**.
+Key features:
+- WinINET / WinHTTP proxy drift detection
+- Registry and localhost listener evidence collection
+- Direct vs proxied network path validation
+- Incident timeline reconstruction
+- Policy-gated remediation previews
+- Hash-chained audit logs and replayable incident data
+
+Focus: Technology Risk, IT Audit, Endpoint Reliability, Governance
 
 ---
 
-## ⚡ Notes
+### Market Data Platform for Analytics & Execution
 
-I focus on building **real trading systems with execution logic**,
-not just theoretical models.
+A production-style data engineering project built around Binance market data.
 
-This work has been explored through both backtesting and
-small-scale live trading using personal capital, with a focus on
-execution behavior and risk management rather than profit optimization.
+Key features:
+- Historical and real-time market data ingestion
+- Bronze / Silver / Gold data layers
+- PostgreSQL serving tables
+- Retry, backoff, and idempotent writes
+- Backtesting with Sharpe ratio and maximum drawdown
+- Docker Compose and CLI workflow
 
+Focus: Data Engineering, Financial Markets, Quant Infrastructure
 
-## 📊 Live & Simulation Experience
-Tested trading systems through both backtesting and small-scale 
-live trading using personal capital.
+---
 
-Focused on understanding real-world execution behavior, including:
+### Financial Statement Analytics Tool
 
-• Latency and order execution dynamics  
-• Slippage under varying market conditions  
-• Real-time risk and drawdown control  
+A financial data analysis tool for turning raw financial statements into structured business insights.
 
-These insights were used to improve system design and align 
-backtesting assumptions with live execution reality.
+Key features:
+- Revenue and margin trend analysis
+- Profitability and liquidity metrics
+- Risk indicator extraction
+- Visualization-ready outputs
+- Accounting-to-analytics workflow design
+
+Focus: Audit Analytics, Financial Analysis, Reporting Automation
+
+---
+
+## Open Source & Forked Projects
+
+Some of my technical learning comes from studying, modifying, and extending open-source projects.
+
+When working with existing projects, I focus on:
+- Understanding architecture and data flow
+- Customizing configuration and business logic
+- Testing API behavior and execution workflows
+- Improving documentation and setup clarity
+- Connecting technical behavior to risk and control implications
+
+---
+
+## Career Direction
+
+I am looking for roles where accounting, data, systems, and risk intersect, especially in:
+
+- Audit Analytics
+- Technology Risk / IT Audit
+- Data Governance
+- Financial Data Engineering
+- FinTech / Market Infrastructure
+
+Long term, I aim to build decision systems that help teams make better financial, operational, and risk-based decisions using reliable data and evidence.
