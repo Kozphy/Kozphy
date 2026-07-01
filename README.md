@@ -114,5 +114,8 @@ Long term, I aim to build decision systems that help teams make better financial
 
 
 ## Long-Term Career Goal
-My long-term goal is to build data-driven decision systems that improve how organizations understand financial risk, operational performance, and technology controls. By combining accounting knowledge with data engineering, analytics, and risk thinking, I aim to help organizations produce more reliable evidence, stronger governance, and better business decisions.
+My long-term goal is to build data-driven decision systems that improve how organizations understand financial risk, operational performance, and technology controls.
+
+By combining accounting knowledge with data engineering, analytics, and risk thinking, I aim to help organizations produce more reliable evidence, stronger governance, and better business decisions.
+
 I aspire to contribute to international organizations in the United Kingdom or the United States, where I can work on large-scale financial platforms, regulatory technology, audit analytics, and data infrastructure while continuing to grow as a global technology and risk professional.
