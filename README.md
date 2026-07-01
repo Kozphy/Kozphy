@@ -111,3 +111,7 @@ I am looking for roles where accounting, data, systems, and risk intersect, espe
 - FinTech / Market Infrastructure
 
 Long term, I aim to build decision systems that help teams make better financial, operational, and risk-based decisions using reliable data and evidence.
+
+
+## Long-Term Career Goal
+My long-term goal is to become a specialist in audit analytics, technology risk, and financial data engineering while contributing to global organizations. I am particularly interested in pursuing career opportunities in the United Kingdom and the United States, where I can work on large-scale financial systems, regulatory technology, and data-driven decision platforms.
