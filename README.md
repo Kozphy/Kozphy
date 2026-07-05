@@ -1,5 +1,10 @@
 # Hi, I'm Zixsa
 
+![Status](https://img.shields.io/badge/Status-Portfolio%20Upgrade%20in%20Progress-0A66C2?style=for-the-badge)
+
+> 🚧 **Portfolio upgrade in progress**  
+> I am currently refining my projects, documentation, demos, and case studies around audit analytics, technology risk, data governance, and financial systems.
+
 Taiwan-based accounting and data professional building practical tools for audit analytics, technology risk, data governance, and financial systems.
 
 My work focuses on turning financial, operational, and system data into structured evidence, risk insights, dashboards, and decision-ready reports.
