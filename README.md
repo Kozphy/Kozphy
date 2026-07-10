@@ -156,3 +156,13 @@ Feel free to connect with me through any of the platforms below.
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/yourusername)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yourusername/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yourusername)
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="assets/profile-dark.svg">
+  <img
+    src="assets/profile-light.svg"
+    alt="Accounting, data analytics and technology risk">
+</picture>
+
