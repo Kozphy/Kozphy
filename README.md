@@ -2,6 +2,8 @@
 
 **CI/agent reliability × financial systems engineering**
 
+**Open for contract work** — fixed-scope sprints. See [Services](#services--available-for-contract-work).
+
 I build tools that turn failures, agent actions, and financial data into **auditable evidence**, **bounded automation**, and **decision-ready controls**.
 
 Taiwan-based. Accounting + systems background. Shipping practical engineering for reliability, governance, and finance.
@@ -15,6 +17,44 @@ Taiwan-based. Accounting + systems background. Shipping practical engineering fo
 | **CI / agent reliability** | Diagnose failures, bound autonomous repair, govern agent actions with policy + audit |
 | **Financial systems** | FinOps, market/KPI analytics, evaluation tooling for AI in finance-adjacent workflows |
 | **Ops evidence** | Local-first Windows/endpoint diagnostics when the incident needs replayable proof |
+
+---
+
+## Services / Available for contract work
+
+Fixed-scope packages. Each one names who it is for, what is delivered, and the public proof.
+
+### CI Reliability Sprint (1-2 weeks)
+
+**For** teams with flaky GitHub Actions or unclear red builds.
+
+**Delivered:** a failure inventory, root-cause ranking, a verification/gate plan, and an optional bounded auto-repair pilot.
+
+**Proof:** [ci-failure-orchestrator](https://github.com/Kozphy/ci-failure-orchestrator)
+
+### FinOps Decision Spike (2-3 weeks)
+
+**For** cloud bills without showback, budgets, or approval gates.
+
+**Delivered:** a FOCUS-aligned allocation model, budget / anomaly / unit-economics signals, an ALLOW / REQUIRE_APPROVAL / BLOCK policy sketch, and dry-run remediation with an audit trail.
+
+**Proof:** [finops-cloud-cost-platform-public](https://github.com/Kozphy/finops-cloud-cost-platform-public) (private walkthrough on request)
+
+### AI Eval & Agent Governance Review (1-2 weeks)
+
+**For** teams shipping LLM features without repeatable eval or safe agent bounds.
+
+**Delivered:** versioned eval cases, rules-first grading with an optional LLM judge, a human adjudication queue, and command / path / approval policies for coding agents.
+
+**Proof:** [EvalForge](https://github.com/Kozphy/EvalForge) · [agentguard](https://github.com/Kozphy/agentguard)
+
+### How to work with me
+
+Taiwan-based (UTC+8). English and Mandarin. Fixed-scope sprints. 15-minute demo walkthrough before scoping.
+
+[GitHub profile](https://github.com/Kozphy) · [Portfolio](https://kozphy.github.io)
+
+<!-- TODO: add email or booking link -->
 
 ---
 
@@ -77,7 +117,7 @@ Older coursework, forks, one-off Windows utilities, and unfinished prototypes ar
 
 ## Career direction
 
-Roles where **reliability engineering**, **agent/tooling governance**, and **financial systems** meet:
+Open to full-time roles and fixed-scope contract work where **reliability engineering**, **agent/tooling governance**, and **financial systems** meet:
 
 - Platform / CI reliability
 - AI agent infrastructure & safety controls
