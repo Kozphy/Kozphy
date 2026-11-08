@@ -1,93 +1,65 @@
 # Zixsa (Kozphy)
 
-**CI/agent reliability × financial systems engineering**
+**Python financial-data workflows · Accounting background · Taiwan**
 
-I build tools that turn failures, agent actions, and financial data into **auditable evidence**, **bounded automation**, and **decision-ready controls**.
+I build Python workflows that turn financial inputs into calculations, reports, and checks that another person can inspect and rerun.
 
-Taiwan-based. Accounting + systems background. Shipping practical engineering for reliability, governance, and finance.
+My focus is financial-data automation, with finance-focused AI evaluation as a supporting specialty. I’m interested in remote junior roles and clearly scoped project work.
 
----
+## Start here: one case in three minutes
 
-## Positioning
+### From financial statements to a checkable analysis
 
-| Pillar | What I ship |
+**The problem:** A financial analysis is difficult to review when its inputs, assumptions, calculations, and conclusions are disconnected.
+
+**The case:** [Apple FY2025 financial-analysis workflow](https://github.com/Kozphy/financial-analysis-tool). An educational portfolio case using a public-company snapshot, explicit assumptions, Python calculations, and an analysis memo.
+
+```text
+Financial inputs → cash-flow and net-debt calculations
+                 → valuation sensitivity → analysis memo
+                 → tests for the headline numbers
+```
+
+| Step | What you can inspect |
 | --- | --- |
-| **CI / agent reliability** | Diagnose failures, bound autonomous repair, govern agent actions with policy + audit |
-| **Financial systems** | FinOps, market/KPI analytics, evaluation tooling for AI in finance-adjacent workflows |
-| **Ops evidence** | Local-first Windows/endpoint diagnostics when the incident needs replayable proof |
+| **1. Check the inputs** | [Case data](https://github.com/Kozphy/financial-analysis-tool/blob/main/data/apple_fy2025_case.csv) and [source references and assumptions](https://github.com/Kozphy/financial-analysis-tool/blob/main/case_studies/apple_fy2025.md) |
+| **2. Read the result** | [Analysis memo](https://github.com/Kozphy/financial-analysis-tool/blob/main/case_studies/apple_fy2025.md), including sensitivity analysis and open diligence questions |
+| **3. Verify the calculations** | [Calculation code](https://github.com/Kozphy/financial-analysis-tool/blob/main/src/financial_analysis_tool/case_study.py) and [case tests](https://github.com/Kozphy/financial-analysis-tool/blob/main/tests/test_case_study.py) |
 
----
+**Two numbers you can trace** — USD millions:
 
-## Featured public work
+- Operating cash flow **111,482** − capital expenditure **12,715** = **98,767** simplified free-cash-flow proxy.
+- Debt **98,657** − cash and securities **132,420** = **−33,763** net debt, meaning net cash under this simplified definition.
 
-### 1. CI Failure Orchestrator
-**[ci-failure-orchestrator](https://github.com/Kozphy/ci-failure-orchestrator)** · public
+The memo separates reported inputs from model assumptions. Tests check the cash bridges, valuation scenarios, and sensitivity table.
 
-Dependency-aware CI/CD/CT failure orchestration: root-cause ranking, selective verification, retry budgets, escalation, and auditable self-healing workflows.
+### Reproduce the case calculations
 
-### 2. AgentGuard
-**[agentguard](https://github.com/Kozphy/agentguard)** · public
+With Git and the [project’s Python requirements](https://github.com/Kozphy/financial-analysis-tool/blob/main/pyproject.toml), use a virtual environment and run:
 
-Local-first governed AI coding agent: command policies, sensitive-path protection, human approval, testing, and audit logs.
+```bash
+git clone https://github.com/Kozphy/financial-analysis-tool.git
+cd financial-analysis-tool
+python -m pip install -e ".[dev]"
+python -m pytest tests/test_case_study.py -q
+```
 
-### 3. EvalForge
-**[EvalForge](https://github.com/Kozphy/EvalForge)** · public portfolio mirror  
-Private working copy: [EvalForge-private](https://github.com/Kozphy/EvalForge-private)
+[Full reproduction walkthrough and expected outputs](https://github.com/Kozphy/financial-analysis-tool/blob/main/case_studies/apple_fy2025.md#d-reproduce-the-ic-recommendation-exact-commands)
 
-Local-first AI evaluation engineering (proprietary). Public mirror for portfolio review; source of truth stays private.
+**Scope:** A single-year educational case with illustrative valuation assumptions. The cash-flow proxy is not a full unlevered cash-flow model. The memo’s “Watch” stance is human-written; the tests verify calculations, not investment judgment. This demonstrates portfolio work, not client delivery, independent assurance, or production adoption.
 
-### 4. FinOps Decision & Control Platform
-**[finops-cloud-cost-platform-public](https://github.com/Kozphy/finops-cloud-cost-platform-public)** · docs-only public showcase  
-Private source: [finops-cloud-cost-platform](https://github.com/Kozphy/finops-cloud-cost-platform)
+## Supporting work: finance-focused AI evaluation
 
-AWS/Azure cost ingestion, FOCUS-aligned allocation, budgeting, forecasting, unit economics, anomaly detection.
+[**EvalForge**](https://github.com/Kozphy/EvalForge) explores how to detect incorrect financial AI outputs using deterministic checks, error categories, regression comparisons, and policy gates.
 
-### 5. Financial analysis tool
-**[financial-analysis-tool](https://github.com/Kozphy/financial-analysis-tool)** · public
+[Read the evaluation report](https://github.com/Kozphy/EvalForge/blob/main/docs/reports/finance-evaluation-report.md) · [Inspect the evidence limits](https://github.com/Kozphy/EvalForge/blob/main/docs/portfolio-positioning.md)
 
-KPI calculation and visualization from financial data (Pandas / Matplotlib).
+The published benchmark uses self-authored synthetic data and offline candidate responses with planted errors. Its results demonstrate the evaluation workflow; they do not establish live-model performance or production reliability.
 
----
+## Where this work fits
 
-## Public / private pairing (how I publish)
+- Junior Python automation and financial-data roles.
+- Data validation, reconciliation support, and repeatable reporting projects.
+- Finance-focused AI evaluation and QA tasks.
 
-Rule of thumb:
-
-- **Private** = working copy (full source, experiments, credentials-adjacent history).
-- **Public** = portfolio surface (full open product, or docs/demo mirror with clear license).
-
-| Theme | Private (workbench) | Public (what reviewers see) |
-| --- | --- | --- |
-| AI evaluation | `EvalForge-private` | `EvalForge` |
-| FinOps | `finops-cloud-cost-platform` | `finops-cloud-cost-platform-public` |
-| Windows network recovery | `Windows-Network-Recovery-Toolkit` | `windows-network-recovery-toolkit-public` |
-| Software inventory | `installed-software-inventory` | `installed-software-inventory-public` |
-| CI reliability | *(optional private fork)* | `ci-failure-orchestrator` |
-| Agent governance | — | `agentguard` |
-
-If a repo has no public twin, treat it as **internal R&D** until it earns a clean public story.
-
----
-
-## What to ignore when scanning this account
-
-Older coursework, forks, one-off Windows utilities, and unfinished prototypes are not the hiring signal. Prefer the five featured repos above.
-
----
-
-## Career direction
-
-Roles where **reliability engineering**, **agent/tooling governance**, and **financial systems** meet:
-
-- Platform / CI reliability
-- AI agent infrastructure & safety controls
-- FinOps / financial data engineering
-- Technology risk with strong engineering evidence
-
-Portfolio site: [kozphy.github.io](https://kozphy.github.io)
-
----
-
-## Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kozphy)
+For a project discussion, a useful starting brief is: **sample inputs, required output, acceptance checks, and deadline**.
