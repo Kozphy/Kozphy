@@ -1,10 +1,10 @@
 # Zixsa (Kozphy)
 
-**Python financial-data workflows · Accounting background · Taiwan**
+**Risk Advisory / Tech Risk · Financial Analysis · Python · Taiwan**
 
-I build Python workflows that turn financial inputs into calculations, reports, and checks that another person can inspect and rerun.
+I build checkable financial analysis and technology-risk evidence: cases you can re-perform, control workpapers, and Python workflows with explicit exceptions.
 
-My focus is financial-data automation, with finance-focused AI evaluation as a supporting specialty. I’m interested in remote junior roles and clearly scoped project work.
+Focus: associate-level Technology Risk / Risk Advisory and Financial Analysis support — remote and international scopes welcome. Portfolio brand is Zixsa; legal identity stays with HR when required.
 
 ## Start here: one case in three minutes
 
@@ -40,26 +40,31 @@ With Git and the [project’s Python requirements](https://github.com/Kozphy/fin
 ```bash
 git clone https://github.com/Kozphy/financial-analysis-tool.git
 cd financial-analysis-tool
-python -m pip install -e ".[dev]"
-python -m pytest tests/test_case_study.py -q
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
+pip install -e ".[dev]"
+pytest -q
 ```
 
-[Full reproduction walkthrough and expected outputs](https://github.com/Kozphy/financial-analysis-tool/blob/main/case_studies/apple_fy2025.md#d-reproduce-the-ic-recommendation-exact-commands)
+[Full reproduction walkthrough and expected outputs](https://github.com/Kozphy/financial-analysis-tool/blob/main/README.md)
 
-**Scope:** A single-year educational case with illustrative valuation assumptions. The cash-flow proxy is not a full unlevered cash-flow model. The memo’s “Watch” stance is human-written; the tests verify calculations, not investment judgment. This demonstrates portfolio work, not client delivery, independent assurance, or production adoption.
+**Scope:** A single-year educational case with illustrative valuation assumptions. The cash-flow proxy is not a full unlevered cash-flow model. The memo’s “Watch” stance is human-written; the tests verify arithmetic and table integrity, not investment advice.
+
+Live walkthrough: [kozphy.github.io/case.html](https://kozphy.github.io/case.html) · Workpaper: [WP-FIN-001](https://kozphy.github.io/workpaper.html) · Résumé: [resume](https://kozphy.github.io/resume.html)
 
 ## Supporting work: finance-focused AI evaluation
 
-[**EvalForge**](https://github.com/Kozphy/EvalForge) explores how to detect incorrect financial AI outputs using deterministic checks, error categories, regression comparisons, and policy gates.
+[EvalForge](https://github.com/Kozphy/EvalForge) explores how to detect incorrect financial AI outputs using deterministic checks, error categories, regression comparisons, and policy gates.
 
-[Read the evaluation report](https://github.com/Kozphy/EvalForge/blob/main/docs/reports/finance-evaluation-report.md) · [Inspect the evidence limits](https://github.com/Kozphy/EvalForge/blob/main/docs/portfolio-positioning.md)
+[Read the evaluation report](https://github.com/Kozphy/EvalForge) · [Inspect the evidence limits](https://kozphy.github.io/)
 
-The published benchmark uses self-authored synthetic data and offline candidate responses with planted errors. Its results demonstrate the evaluation workflow; they do not establish live-model performance or production reliability.
+The published benchmark uses self-authored synthetic data and offline candidate responses with planted errors. Its results demonstrate the evaluation workflow; they do not establish live-model performance.
 
 ## Where this work fits
 
-- Junior Python automation and financial-data roles.
-- Data validation, reconciliation support, and repeatable reporting projects.
-- Finance-focused AI evaluation and QA tasks.
+- Technology Risk / Risk Advisory associate scopes (controls, testing, exceptions)
+- Financial analysis, CSV reconciliation, and repeatable reporting
+- Finance-focused AI evaluation and QA with explicit non-claims
 
 For a project discussion, a useful starting brief is: **sample inputs, required output, acceptance checks, and deadline**.
